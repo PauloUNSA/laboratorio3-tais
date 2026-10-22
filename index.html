@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pronóstico del Clima - Open-Meteo</title>
+  <meta name="description" content="Aplicación web para consultar el pronóstico del clima actual de cualquier ciudad mediante Open-Meteo API." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/styles.css" />
+</head>
+<body>
+  <div class="app-layout">
+    <header class="app-header">
+      <div class="header-badge">🌤️ Estado del Tiempo</div>
+      <h1 class="app-title">Pronóstico del Clima</h1>
+      <p class="app-subtitle">Consulta las condiciones meteorológicas actuales de cualquier ciudad del mundo en tiempo real.</p>
+    </header>
+
+    <main class="app-main" id="app">
+      <section class="section-search" id="search-container" aria-label="Búsqueda de ciudad"></section>
+      <section class="section-status" id="loading-container" aria-live="polite"></section>
+      <section class="section-alerts" id="error-container" aria-live="assertive"></section>
+      <section class="section-weather" id="weather-container" aria-label="Resultado del clima"></section>
+    </main>
+
+    <footer class="app-footer">
+      <p>Datos meteorológicos provistos por <a href="https://open-meteo.com" target="_blank" rel="noopener noreferrer">Open-Meteo API</a> (Gratuita y de Código Abierto).</p>
+    </footer>
+  </div>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
