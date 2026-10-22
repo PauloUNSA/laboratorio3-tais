@@ -5,7 +5,7 @@ Single Page Application (SPA) para consultar el pronóstico del clima actual de 
 Desarrollada con **Spec-Driven Development (SDD)**, TypeScript estricto, HTML/CSS vanilla y una suite completa de pruebas unitarias, de integración y basadas en propiedades (*property-based testing*) con **Vitest** y **fast-check**.
 
 ## Autor
-- **Estudiante:** Paulo Andrei Hidalgo Chinchay
+- **Estudiante:** Paulo Andre Hidalgo Chinchay
 - **Curso/Actividad:** Laboratorio 3: Spec-Driven Development (SDD) - Caso Práctico
 
 ## Documentación del Proyecto
